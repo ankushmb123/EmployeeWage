@@ -7,11 +7,9 @@ namespace EmployeeWg
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcom to the Employee Wage Problem");
 
-            EmpWage employee = new EmpWage();
-            employee.DailyEmployeeWage();
-
+            UsingSwitchCase useSwich = new UsingSwitchCase();
+            useSwich.DailyEmployeeWage();
         }
     }
 }
