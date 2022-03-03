@@ -10,7 +10,7 @@ namespace EmployeeWg
             Console.WriteLine("Welcom to the Employee Wage Problem");
 
             EmpWage employee = new EmpWage();
-            employee.EmployeeAttendance();
+            employee.DailyEmployeeWage();
 
         }
     }
